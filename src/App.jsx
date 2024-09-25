@@ -29,7 +29,7 @@ function App() {
         </div>
       </header>
 
-      <div className={`event-list-container ${showVenue ? 'visible' : ''}`}>
+      <div className={`event-list-container ${showVenue ? 'visible' : ''}`}> {/* cuando es visible el top de ConferenceEvent es 0 segund el App.css */}
         <ConferenceEvent />
       </div>
     </>
